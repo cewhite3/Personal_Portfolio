@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Home Page of portfolio site">
+    <meta name="author" content="Cecilia White">
+    <title> Home | Cecilia White</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <!-- LOAD BOOTSTRAP CSS - DO NOT DELETE -->
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- END LOADING BOOTSTRAP CSS -->
+
+    
+    <!-- Custom styles -->
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+
+<div id="offcanvasNavbarLabel" style="display: none;">Offcanvas Navigation Label</div>
+<!-- Nav Bar -->
+<nav class="navbar bg-body-tertiary fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+      <img class="logo" src="logo.png" alt="Cecilia White: User Experience Designer">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+   <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              My Work
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="todo.html">"To Do" Design</a></li>
+              <li class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="conserve.html">ConServe</a></li>
+              <li class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="mobileid.html">Mobile ID</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- End Nav Bar -->
+
+<!-- Header -->
+        <header class="header">
+            <div class="row">
+
+            <!-- Spacing -->
+                <p> </p>
+                <p> </p>
+                <p> </p>
+                <p> </p>
+                <p> </p>
+              <div class="col-md-1"></div>
+            <!-- End Spacing -->
+
+            <!-- Headshot -->
+              <div class="col-md-4">
+                <img class=personalp src="cecilia.png" alt="headshot">
+              </div>
+            <!-- End Headshot -->
+
+            <!-- Intro Content -->
+              <div id="intro" class="col-md-5">
+                <h1>Hi, I'm Cecilia</h1>
+                <p>This is my UX/UI design portfolio, where my passion for creating user-friendly experiences takes center stage! As a student immersed in the world of design, I invite you to explore my journey of growth and innovation through this digital showcase.</p>
+
+                <button class="btn btn-primary border-0" onclick="window.open('res23.pdf', '_blank', 'noopener noreferrer')">
+                  Resume
+              </button>
+              </div>
+            <!-- End Intro Content -->
+                <p> </p>
+                <p> </p>
+                <p> </p>
+                <p> </p>
+            </div> <!--end row-->
+        </header>
+
+<!-- My Work Section -->
+<section id="mywork">
+  <h5>.</h5>
+  <h5>.</h5>
+  <h4>My Work</h4>
+  <div class="row">
+    <!--Work Item One-->
+    <div class="col-md-2">
+      <div class="container">
+        <img id="urbino" src="urbpro.png" alt="Canvas website mockup" class="image" style="width:400px; ">
+        <div id="btn1" class="middle">
+          <button onclick="window.open('todo.html', '_blank');" class="btn btn-primary border-0">"To Do" Tab </button>
+        </div>
+      </div>
+    </div>
+    <div  class="col-md-2"> &nbsp;</div>
+
+    <!--Work Item Two-->
+    <div class="col-md-3">
+      <div class="container">
+        <img id="conserve" src="conserve.png" alt="ConServe app iphone mockup" class="image" style="width:190px; margin-left: 27px;">
+        <div id="btn2" class="middle">
+          <button onclick="window.open('conserve.html', '_blank');" class="btn btn-primary border-0">ConServe</button>
+        </div>
+      </div>
+    </div>
+
+    <!--Work Item Three-->
+    <div class="col-md-3">
+      <div class="container">
+        <img id="mid" src="mid.png" alt="Mobile App redesign mockup" class="image" style="width:370px; margin-right: 40px;">
+        <div id="btn3" class="middle">
+          <button onclick="window.open('mobileid.html', '_blank');" class="btn btn-primary border-0">Mobile ID</button>
+        </div>
+      </div>
+    </div>
+
+    <div  class="col-md-2"> &nbsp;</div>
+
+  </div> <!--end row-->
+
+<br><br><br><br><br><br>
+</section>
+
+
+
+<!-- Footer/Contact -->
+<section id="footer">
+        <div class="contact-info">
+            <a href="tel:8043961849">
+                <img src="phonec.png" alt="Phone Icon">
+                <span>(804)396-1849</span>
+            </a>
+            <a href="mailto:ceciliawhite002@gmail.com">
+                <img src="mailc.svg" alt="Email Icon">
+                <span>ceciliawhite002@gmail.com</span>
+            </a>
+            <a href="https://www.linkedin.com/in/cecilia-white-21486a207/">
+                <img src="linkc.png" alt="LinkedIn Icon">
+                <span>Connect With Me</span>
+            </a>
+        </div>
+</section>
+
+<!-- LOAD BOOTSTRAP JAVASCRIPT - DO NOT DELETE BELOW -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<!-- DO NOT DELETE ABOVE - END LOADING BOOTSTRAP JAVASCRIPT -->
+      
+  </body>
+</html>

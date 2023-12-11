@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="To Do page of portfolio site">
+    <meta name="author" content="Cecilia White">
+    <title>"To Do" Tab | Cecilia White</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <!-- LOAD BOOTSTRAP CSS - DO NOT DELETE -->
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- END LOADING BOOTSTRAP CSS -->
+
+    
+    <!-- Custom styles -->
+    <link href="todo.css" rel="stylesheet">
+  </head>
+  <body>
+<div id="offcanvasNavbarLabel" style="display: none;">Offcanvas Navigation Label</div>
+<!-- Nav Bar -->
+<nav class="navbar bg-body-tertiary fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+      <img class="logo" src="logo.png" alt="Cecilia White: User Experience Designer">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              My Work
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="todo.html">"To Do" Design</a></li>
+              <li class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="conserve.html">ConServe</a></li>
+              <li class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="mobileid.html">Mobile ID</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- End Nav Bar -->
+
+<!-- Header -->
+        <header class="header">
+        <div id="todoimg" class="container-fluid">
+            
+         <div id="button1" class="btn btn-primary border-0" style="margin-right: 20px; cursor: pointer;" onclick="window.location='#projectoverview';">
+        Take a Look
+        </div>
+
+        </div>
+        </header>
+
+
+<section id=projectoverview>
+  <div class="row">
+            <!-- Content -->
+              <div id="cantext" class="col-7">
+                <h1>Project Overview</h1>
+                <br>
+                <p> Passionate about elevating user experiences, I revamped the existing "To Do" tab within the Canvas' mobile application, seamlessly integrating its functionality into the online platform. The design not only ensures a cohesive look but also provides a seamless flow across devices used by students. Rooted in a comprehensive design process, my team and I conducted thorough user research, created wireframes, and developed high-fidelity prototypes. Using Figma, we designed user flows for the mobile application, notifications, and online interface.For a more in depth look at the design process and soltions download our proposal.</p>
+
+                <button class="btn btn-primary border-0" onclick="window.open('canprop.pdf', '_blank', 'noopener noreferrer')">
+                  Proposal
+              </button>
+              </div>
+
+            <!-- Mockup -->
+              <div id="intro" class="col-5">
+                <img class=personalp src="4.png" alt="iphone mockup of Canvas To Do Tab.">
+              </div>
+           
+            </div> <!--end row-->
+<br>
+<br>
+<br>
+  
+</section>
+
+<!-- Research -->
+<section id="mywork">
+  <div class="row">
+              <!-- Mockup -->
+              <div id="cvideo" class="col-6">
+              <video width="600" height="320" controls>
+                <source src="webv.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+              </div>
+            <!-- Content -->
+              <div id="mocktext" class="col-6">
+                <h1>Website Mockups</h1>
+                <br>
+                <p>
+                    Using Figma, we created detailed prototypes for our user flows. We added a "To Do" tab to the dashboard view options, giving users more choices. Inside the tab, there are three filters for customizing the dashboard. We also made sure to include clear checkboxes that match our design of the mobile app. 
+                </p>
+              </div>
+            </div> <!--end row-->
+            <br>
+            <br>
+  
+</section>
+
+<!-- End My Work Section -->
+
+<!-- Experience -->
+<section id="experience">
+
+</section>
+<!-- End Experience -->
+
+<!-- Footer/Contact -->
+<section id="footer">
+        <div class="contact-info">
+            <a href="tel:8043961849">
+                <img src="phonec.png" alt="Phone Icon">
+                <span>(804)396-1849</span>
+            </a>
+            <a href="mailto:ceciliawhite002@gmail.com">
+                <img src="mailc.svg" alt="Email Icon">
+                <span>ceciliawhite002@gmail.com</span>
+            </a>
+            <a href="https://www.linkedin.com/in/cecilia-white-21486a207/">
+                <img src="linkc.png" alt="LinkedIn Icon">
+                <span>Connect With Me</span>
+            </a>
+        </div>
+</section>
+<!-- End Experience -->
+
+<!-- LOAD BOOTSTRAP JAVASCRIPT - DO NOT DELETE BELOW -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<!-- DO NOT DELETE ABOVE - END LOADING BOOTSTRAP JAVASCRIPT -->
+      
+  </body>
+</html>

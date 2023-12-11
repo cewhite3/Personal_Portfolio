@@ -1,0 +1,230 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE */
+
+/* Nav Bar*/
+nav.navbar.bg-body-tertiary {
+    background-color: #FFFF !important;
+}
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+.logo {
+  width: 200px;
+}
+
+/* Intro Section*/
+header {
+background-image:  url('mobileid.svg');
+width: 1500px;
+height:600px;
+background-repeat:no-repeat;
+  
+}
+
+#button1 {
+  margin-top: 510px !important;
+  margin-left: 580px !important;
+}
+
+#projectoverview{
+    background-color: #fffafa;
+}
+.personalp {
+  width: 500px;
+  margin-top: 140px;
+  margin-right: 600px;
+    transition: transform 0.3s ease;
+   transform: scale(1);
+}
+
+.personalp:hover {
+  transform: scale(1.2); /* Scale the image on hover */
+}
+
+#cantext {
+  padding: 100px;
+  margin-top: 70px;
+  font-size: 20px;
+}
+
+
+.btn-primary{
+  background-color: #9BCDD2;
+  color: black;
+  width: 150px;
+  height: 50px;
+  font-size: 23px;
+}
+/* End Intro Section */
+
+/* My Work Section */
+#mywork {
+  background-color: #fffafa;
+  padding: 40px;
+}
+
+#cvideo {
+  margin-top: 120px;
+}
+
+
+#mocktext {
+  padding: 150px;
+  padding-right: 20px !important;
+  padding-left: 50px;
+  font-size: 20px;
+}
+h1 {
+  font-size: 50px;
+  font-weight: bolder;
+}
+h4 {
+   text-align: center;
+   font-size: 50px;
+   margin-bottom: 50px;
+}
+h5 {
+   color: #FFFAF5;
+   font-size: 50px;
+}
+
+h2 {
+  text-align: center;
+
+}
+h3 {
+  font-size: 30px;
+  text-align: left;
+}
+
+h6 {
+  text-align: left;
+  padding-left: 60px;
+  font-weight: bold;
+}
+
+h7 {
+  text-align: left;
+  padding-left: 60px;
+}
+
+#conserve {
+  margin-left: 70px;
+  margin-bottom: 10px;
+
+  
+
+}
+#mid {
+/*  margin-left: 20px !important;*/
+margin-top: 23px;
+}
+
+#urbino {
+  margin-left: 5px;
+  margin-top: 40px;
+}
+
+
+/* End My Work Section */
+
+
+/* Experience */
+#experience {
+  background-color: #9BCDD2 ;
+}
+
+#uxskills{
+  margin-top: 50px;
+}
+
+/* Hover */
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #9BCDD2;
+  color: black;
+  font-size: 16px;
+  padding: 16px 45px;
+}
+
+#btn1 {
+  transform: translate(60%, -50%);
+  -ms-transform: translate(50%, -50%);
+}
+#btn2 {
+  transform: translate(-11%, -50%);
+  -ms-transform: translate(50%, -50%);
+}
+
+#btn3 {
+  transform: translate(30%, -50%);
+  -ms-transform: translate(50%, -50%);
+}
+
+/* end hover */
+
+/* footer */
+#footer {
+            background-color: #9BCDD2 !important;
+            padding: 2px;
+            text-align: center;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+        }
+
+        .contact-info a {
+            color: black;
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 70px; /* Adjust the margin as needed */
+        }
+
+        .contact-info img {
+            width: 30px;
+            height: 30px;
+            margin-bottom: 5px;
+        }
+
+
+
